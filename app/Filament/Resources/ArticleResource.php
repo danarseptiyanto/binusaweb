@@ -13,6 +13,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Section;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\FileUpload;
 use Illuminate\Database\Eloquent\Builder;
 use Filament\Forms\Components\MarkdownEditor;
@@ -35,7 +36,7 @@ class ArticleResource extends Resource
                     ->collapsible()
                     ->schema([
                         TextInput::make('title')->required()->maxLength(255),
-                        Grid::make(2)
+                        Grid::make(3)
                             ->schema([
                                 Select::make('author_id')
                                     ->relationship('author', 'name')
@@ -49,6 +50,10 @@ class ArticleResource extends Resource
                                     ->required()
                                     ->rule('regex:/^[a-z0-9]+(?:-[a-z0-9]+)*$/')
                                     ->maxLength(255),
+                                DatePicker::make('date'),
+                                // TextInput::make('date')
+                                //     ->required()
+                                //     ->maxLength(255),
                             ]),
                         MarkdownEditor::make('content')->columnSpan('full')
                             ->fileAttachmentsDisk('uploads')

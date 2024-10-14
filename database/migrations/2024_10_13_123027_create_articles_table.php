@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('slug');
+            $table->string('date');
             $table->string('thumbnail');
             $table->foreignId('author_id')->constrained('authors');
             $table->text('content');
