@@ -38,9 +38,11 @@
         <div class="w-[900px]">
             <div class="flex items-center justify-between">
                 <p class="text-3xl font-semibold">Berita Sekolah</p>
-                <x-buttons.button>
-                    Semua Artikel<i class="ri-arrow-right-up-line font-normal"></i>
-                </x-buttons.button>
+                <a href="/berita">
+                    <x-buttons.button>
+                        Semua Artikel<i class="ri-arrow-right-up-line font-normal"></i>
+                    </x-buttons.button>
+                </a>
             </div>
             <div class="mt-7 grid grid-cols-2 gap-8">
                 @foreach ($articles as $article)

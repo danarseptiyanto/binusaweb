@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="sticky top-0 z-50 bg-blue-500">
+    <div class="sticky top-0 z-50 bg-gradient-to-r from-blue-600 to-violet-500">
         <div class="mx-auto flex max-w-screen-xl items-center justify-between py-4 text-white">
             <a href="/"><img src="/img/ui/logonav.svg"></a>
             <div class="flex gap-7">
@@ -157,3 +157,4 @@
 </footer>
 
 </html>
+

@@ -7,7 +7,7 @@
                         <h6 class="text-lg font-normal text-slate-400">Profil Sekolah</h6>
                         <div class="flex w-full flex-col items-center justify-start lg:items-start">
                             <h2
-                                class="font-manrope mb-3 text-center text-4xl font-bold leading-normal text-indigo-700 lg:text-start">
+                                class="font-manrope mb-3 text-center text-4xl font-bold leading-normal text-blue-700 lg:text-start">
                                 SMK Bina Nusantara Semarang</h2>
                             <p class="mb-2 text-center text-lg font-normal leading-relaxed text-slate-500 lg:text-start">
                                 SMK Bina Nusantara Semarang adalah sekolah menenengah kejuruan yang berdiri pada tanggal
@@ -23,31 +23,31 @@
                         <div class="grid w-full grid-cols-1 items-center justify-start gap-8 md:grid-cols-2">
                             <div
                                 class="inline-flex h-full w-full flex-col items-start justify-start gap-1 rounded-xl border border-slate-200 px-5 py-3.5 transition-all duration-700 ease-in-out hover:border-slate-400">
-                                <h4 class="font-manrope text-2xl font-bold leading-9 text-slate-900">14+ Tahun</h4>
-                                <p class="text-base font-normal leading-relaxed text-slate-500">Sekolah sudah berdiri
+                                <h4 class="font-manrope text-2xl font-bold text-slate-900">14+ Tahun</h4>
+                                <p class="text-base font-normal text-slate-500">Sekolah sudah berdiri
                                     sejak 18 Mei
                                     2010</p>
                             </div>
                             <div
                                 class="inline-flex h-full w-full flex-col items-start justify-start gap-1 rounded-xl border border-slate-200 px-5 py-3.5 transition-all duration-700 ease-in-out hover:border-slate-400">
-                                <h4 class="font-manrope text-2xl font-bold leading-9 text-slate-900">30+ Guru dan Staff
+                                <h4 class="font-manrope text-2xl font-bold text-slate-900">30+ Guru dan Staff
                                 </h4>
-                                <p class="text-base font-normal leading-relaxed text-slate-500">Guru dan staff yang
+                                <p class="text-base font-normal text-slate-500">Guru dan staff yang
                                     kompeten dan berpengalaman</p>
                             </div>
                         </div>
                         <div class="grid h-full w-full grid-cols-1 items-center justify-start gap-8 md:grid-cols-2">
                             <div
                                 class="inline-flex w-full flex-col items-start justify-start gap-1 rounded-xl border border-slate-200 px-5 py-3.5 transition-all duration-700 ease-in-out hover:border-slate-400">
-                                <h4 class="font-manrope text-2xl font-bold leading-9 text-slate-900">26+ Penghargaan
+                                <h4 class="font-manrope text-2xl font-bold text-slate-900">26+ Penghargaan
                                 </h4>
-                                <p class="text-base font-normal leading-relaxed text-slate-500">Penghargaan
+                                <p class="text-base font-normal text-slate-500">Penghargaan
                                     yang didapatkan siswa peserta lomba</p>
                             </div>
                             <div
                                 class="inline-flex h-full w-full flex-col items-start justify-start gap-1 rounded-xl border border-slate-200 px-5 py-3.5 transition-all duration-700 ease-in-out hover:border-slate-400">
-                                <h4 class="font-manrope text-2xl font-bold leading-9 text-slate-900">350+ Siswa</h4>
-                                <p class="text-base font-normal leading-relaxed text-slate-500">Siswa yang saat ini
+                                <h4 class="font-manrope text-2xl font-bold text-slate-900">350+ Siswa</h4>
+                                <p class="text-base font-normal text-slate-500">Siswa yang saat ini
                                     bersekolah di SMK Binusa</p>
                             </div>
                         </div>
@@ -66,3 +66,4 @@
     <x-kelebihan />
     <x-cta-ppdb />
 </x-app>
+

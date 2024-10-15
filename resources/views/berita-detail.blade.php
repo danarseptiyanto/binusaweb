@@ -1,5 +1,5 @@
 <x-app>
-    <div class="border-t border-t-blue-600 bg-blue-500 py-16">
+    <div class="border-t border-t-white/20 bg-gradient-to-r from-blue-600 to-violet-500 py-16">
         <div class="mx-auto max-w-screen-xl text-white">
             <p class="text-xl">Berita Sekolah</p>
             <p class="mt-1 text-3xl font-bold">{{ $article->title }}</p>
@@ -48,3 +48,4 @@
     </div>
     <x-cta-ppdb />
 </x-app>
+
