@@ -19,7 +19,7 @@
             </div>
             <img class="aspect-video w-[835px] rounded-xl object-cover" src="/upload/{{ $article->thumbnail }}">
             <article
-                class="prose prose-lg prose-blue xl:prose-lg prose-h1:-mb-2 prose-h1:mt-6 prose-p:my-4 prose-p:text-slate-600 prose-a:no-underline prose-img:my-6 prose-img:w-full prose-img:rounded-xl max-w-[835px]">
+                class="prose prose-lg prose-blue max-w-[835px] xl:prose-lg prose-h1:-mb-2 prose-h1:mt-6 prose-p:my-4 prose-p:text-slate-600 prose-a:no-underline prose-img:my-6 prose-img:w-full prose-img:rounded-xl">
                 {!! \Illuminate\Support\Str::markdown($article->content) !!}
             </article>
         </div>

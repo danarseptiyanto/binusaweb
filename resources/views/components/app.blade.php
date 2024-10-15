@@ -41,14 +41,16 @@
                 <a href="/berita"
                     class="{{ request()->routeIs('berita.detail', 'berita') ? 'font-bold' : '' }} hover:text-blue-200">
                     Berita Sekolah</a>
-                <a href="#" class="hover:text-blue-200">Profil Sekolah</a>
+                <a href="/profil-sekolah" class="hover:text-blue-200">Profil Sekolah</a>
                 <a href="#" class="hover:text-blue-200">Jurusan</a>
-                <a href="#" class="hover:text-blue-200">Alumni</a>
+                {{-- <a href="#" class="hover:text-blue-200">Alumni</a> --}}
                 <a href="#" class="hover:text-blue-200">Kontak Kami</a>
             </div>
-            <x-buttons.button>
-                PPDB<i class="ri-arrow-right-up-line font-normal"></i>
-            </x-buttons.button>
+            <a href="/ppdb">
+                <x-buttons.button>
+                    PPDB<i class="ri-arrow-right-up-line font-normal"></i>
+                </x-buttons.button>
+            </a>
         </div>
     </div>
 

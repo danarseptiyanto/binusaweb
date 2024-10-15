@@ -16,3 +16,7 @@ Route::get('/berita/', [ArticleController::class, 'index'])->name('berita');
 Route::get('/ppdb', function () {
     return view('ppdb');
 });
+
+Route::get('/profil-sekolah', function () {
+    return view('profil-sekolah');
+});

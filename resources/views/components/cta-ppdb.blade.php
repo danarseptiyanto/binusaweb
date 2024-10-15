@@ -8,7 +8,7 @@
             Penerimaan peserta Didik Baru TA 2025/26
         </p>
     </div>
-    <a href="#"
+    <a href="/ppdb"
         class="flex items-center gap-2 rounded-full bg-white px-8 py-4 text-lg font-semibold text-indigo-600 shadow-sm transition-all duration-500 hover:bg-slate-100">Daftar
         Sekarang
         <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
