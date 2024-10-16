@@ -19,7 +19,7 @@ Route::get('/ppdb', function () {
 
 Route::get('/profil-sekolah', function () {
     return view('profil-sekolah');
-});
+})->name('profil-sekolah');
 
 Route::get('/jurusan/tkj', function () {
     return view('jurusan-tkj');

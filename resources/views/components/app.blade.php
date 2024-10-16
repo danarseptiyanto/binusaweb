@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <div class="bg-slate-800">
-        <div class="mx-auto flex max-w-screen-xl items-center justify-between text-xs text-white">
+    <div class="hidden bg-slate-800 md:block">
+        <div class="mx-auto flex items-center justify-between px-5 text-xs text-white md:max-w-screen-xl md:px-0">
             <p>Jl. Kemantren Raya No. 10 Wonosari Ngaliyan - Kota Semarang</p>
             <div class="flex items-center gap-4">
                 <div class="flex gap-2">
@@ -33,23 +33,90 @@
         </div>
     </div>
     <div class="sticky top-0 z-50 bg-gradient-to-r from-blue-600 to-violet-500">
-        <div class="mx-auto flex max-w-screen-xl items-center justify-between py-4 text-white">
+        <div class="mx-auto flex items-center justify-between px-5 text-white md:max-w-screen-xl md:px-0">
             <a href="/"><img src="/img/ui/logonav.svg"></a>
-            <div class="flex gap-8">
-                <a href="/" class="{{ request()->routeIs('home') ? 'font-bold' : '' }} hover:text-blue-200">
+            <div class="hidden gap-1 md:flex">
+                <a href="/"
+                    class="{{ request()->routeIs('home') ? 'font-bold border-b-2 border-b-orange-400 bg-blue-300/5' : '' }} px-4 py-5 hover:text-blue-200">
                     Beranda</a>
                 <a href="/berita"
-                    class="{{ request()->routeIs('berita.detail', 'berita') ? 'font-bold' : '' }} hover:text-blue-200">
+                    class="{{ request()->routeIs('berita.detail', 'berita') ? 'font-bold border-b-2 border-b-orange-400 bg-blue-300/5' : '' }} px-4 py-5 hover:text-blue-200">
                     Berita</a>
-                <a href="/profil-sekolah" class="hover:text-blue-200">Profil Sekolah</a>
+                <a href="/profil-sekolah"
+                    class="{{ request()->routeIs('profil-sekolah') ? 'font-bold border-b-2 border-b-orange-400 bg-blue-300/5' : '' }} px-4 py-5 hover:text-blue-200">Profil
+                    Sekolah</a>
                 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
-                    class="{{ request()->routeIs('jurusan-tkj', 'jurusan-tsm', 'jurusan-dpb', 'jurusan-akt') ? 'font-bold' : '' }} hover:text-blue-200">Jurusan
+                    class="{{ request()->routeIs('jurusan-tkj', 'jurusan-tsm', 'jurusan-dpb', 'jurusan-akt') ? 'font-bold border-b-2 border-b-orange-400 bg-blue-300/5' : '' }} px-4 py-5 hover:text-blue-200">Jurusan
                     <i class="ri-arrow-down-s-line"></i></button>
-                {{-- <a href="#" class="hover:text-blue-200">Alumni</a> --}}
-                <a href="#" class="hover:text-blue-200">Kontak Kami</a>
+                {{-- <a href="#" class="hover:text-blue-200 py-5 px-4">Alumni</a> --}}
+                <a href="#" class="px-4 py-5 hover:text-blue-200">Kontak Kami</a>
             </div>
-
-            <a href="/ppdb">
+            <button type="button" data-modal-target="crypto-modal" data-modal-toggle="crypto-modal"
+                class="my-3.5 inline-flex h-fit w-fit items-center rounded-full bg-white/50 p-2 text-center text-sm text-gray-900 hover:bg-gray-100 md:hidden">
+                <img class="h-5" src="/img/ui/hamburger.svg" alt="">
+            </button>
+            <!-- Main modal -->
+            <div id="crypto-modal" tabindex="-1" aria-hidden="true"
+                class="fixed left-0 right-0 top-0 z-50 hidden h-full max-h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden bg-black/50 md:inset-0">
+                <div class="relative max-h-full w-full max-w-md p-4">
+                    <!-- Modal content -->
+                    <div class="relative rounded-lg bg-white shadow">
+                        <!-- Modal header -->
+                        <div class="flex items-center justify-between rounded-t border-b p-4 md:p-5">
+                            <h3 class="text-lg font-semibold text-gray-900">
+                                Connect wallet
+                            </h3>
+                            <button type="button"
+                                class="ms-auto inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900"
+                                data-modal-toggle="crypto-modal">
+                                <svg class="h-3 w-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 14 14">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                                </svg>
+                                <span class="sr-only">Close modal</span>
+                            </button>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="p-4 md:p-5">
+                            <p class="text-sm font-normal text-gray-500">Connect with one of our
+                                available wallet providers or create a new one.</p>
+                            <ul class="my-4 space-y-3">
+                                <li>
+                                    <a href="#"
+                                        class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-bold text-gray-900 hover:bg-gray-100 hover:shadow">
+                                        <span class="ms-3 flex-1 whitespace-nowrap">Opera Wallet</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-bold text-gray-900 hover:bg-gray-100 hover:shadow">
+                                        <span class="ms-3 flex-1 whitespace-nowrap">Opera Wallet</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-bold text-gray-900 hover:bg-gray-100 hover:shadow">
+                                        <span class="ms-3 flex-1 whitespace-nowrap">Opera Wallet</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div>
+                                <a href="#"
+                                    class="inline-flex items-center text-xs font-normal text-gray-500 hover:underline">
+                                    <svg class="me-2 h-3 w-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                        fill="none" viewBox="0 0 20 20">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M7.529 7.988a2.502 2.502 0 0 1 5 .191A2.441 2.441 0 0 1 10 10.582V12m-.01 3.008H10M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    Why do I need to connect with my wallet?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="hidden md:block" href="/ppdb">
                 <x-buttons.button>
                     PPDB<i class="ri-arrow-right-up-line font-normal"></i>
                 </x-buttons.button>

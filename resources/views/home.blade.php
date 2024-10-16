@@ -1,29 +1,30 @@
 <x-app>
-    <div class="bg-gradient-to-tl from-orange-100 via-white to-white py-12">
-        <div class="mx-auto flex max-w-screen-xl items-center justify-between">
-            <div class="flex h-[478px] flex-col justify-between py-7">
-                <div class="flex items-center gap-2 text-sm text-slate-500">
+    <div class="bg-gradient-to-tl from-orange-100 via-white to-white py-3 pb-7 md:py-8">
+        <div
+            class="mx-auto flex w-full flex-col-reverse items-center justify-between px-5 md:max-w-screen-xl md:flex-row md:px-0">
+            <div class="flex h-full flex-col justify-between py-4 md:h-[478px] md:py-8">
+                <div class="flex items-center gap-2 text-xs text-slate-500 md:text-sm">
                     <div class="flex -space-x-4">
-                        <img class="h-10 w-10 rounded-full border-2 border-white"
+                        <img class="h-8 w-8 rounded-full border-2 border-white md:h-10 md:w-10"
                             src="https://flowbite.com/docs/images/people/profile-picture-5.jpg">
-                        <img class="h-10 w-10 rounded-full border-2 border-white"
+                        <img class="h-8 w-8 rounded-full border-2 border-white md:h-10 md:w-10"
                             src="https://flowbite.com/docs/images/people/profile-picture-2.jpg">
-                        <img class="h-10 w-10 rounded-full border-2 border-white"
+                        <img class="h-8 w-8 rounded-full border-2 border-white md:h-10 md:w-10"
                             src="https://flowbite.com/docs/images/people/profile-picture-3.jpg">
                     </div>
                     Gabung ribuan alumni sukses lainnya!
                 </div>
-                <div>
-                    <p class="text-[32px] text-slate-500">
+                <div class="py-5 md:py-0">
+                    <p class="text-lg text-slate-500 md:text-[32px]">
                         Selamat datang di Website
                     </p>
-                    <h1 class="mt-2 text-6xl font-bold">SMK Bina Nusantara Semarang</h1>
-                    <p class="mt-4 max-w-[527px] text-xl text-slate-500">
+                    <h1 class="mt-2 text-[30px] font-bold leading-none md:text-6xl">SMK Bina Nusantara Semarang</h1>
+                    <p class="mt-4 text-base text-slate-500 md:max-w-[527px] md:text-xl">
                         SMK Bina Nusantara Semarang merupakan sekolah yang berfokus pada pendidikan dan keterampilan
                         praktis yang berkualitas
                     </p>
                 </div>
-                <a href="/event"
+                <a href="/ppdb"
                     class="mt-1 flex w-fit items-center gap-2 rounded-full border border-slate-300 p-1 transition duration-150 hover:bg-blue-100 md:mt-0">
                     <div class="flex h-8 w-8 items-center justify-center rounded-full bg-blue-700">
                         <i class="ri-arrow-right-up-line text-xl text-white"></i>
@@ -31,35 +32,45 @@
                     <p class="me-3 text-[14px] font-bold leading-none">PPDB 2025/26</p>
                 </a>
             </div>
-            <img src="/img/ui/hero.svg">
+            <div id="image-slider" class="relative my-8 w-full overflow-hidden md:w-[800px]">
+                <img src="/img/ui/hero.svg" alt="Hero Image 1"
+                    class="slider-image transition-transform duration-500 ease-in-out">
+                <img src="/img/ui/hero2.svg" alt="Hero Image 2"
+                    class="slider-image absolute left-0 top-0 translate-x-full transition-transform duration-500 ease-in-out">
+            </div>
         </div>
     </div>
-    <div class="mx-auto flex max-w-screen-xl justify-between py-14">
-        <div class="w-[900px]">
+    <div class="mx-auto flex flex-col justify-between px-5 py-10 md:max-w-screen-xl md:flex-row md:px-0 md:py-14">
+        <div class="w-full md:w-[900px]">
             <div class="flex items-center justify-between">
-                <p class="text-3xl font-semibold">Berita Sekolah</p>
+                <p class="text-xl font-semibold md:text-3xl">Berita Sekolah</p>
                 <a href="/berita">
                     <x-buttons.button>
-                        Semua Artikel<i class="ri-arrow-right-up-line font-normal"></i>
+                        Semua <span class="hidden md:inline-block">Artikel</span>
+                        <i class="ri-arrow-right-up-line font-normal"></i>
                     </x-buttons.button>
                 </a>
             </div>
-            <div class="mt-7 grid grid-cols-2 gap-8">
+            <div class="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2">
                 @foreach ($articles as $article)
                     <div>
-                        <img class="aspect-video rounded-2xl object-cover" src="/upload/{{ $article->thumbnail }}">
+                        <a href="/berita/{{ $article->slug }}">
+                            <img class="aspect-video rounded-2xl object-cover hover:scale-[0.99] hover:transform hover:object-center hover:duration-300"
+                                src="/upload/{{ $article->thumbnail }}">
+                        </a>
                         <div class="mt-5 flex gap-7">
                             <div class="flex items-center gap-1.5">
                                 <i class="ri-calendar-todo-line text-lg leading-none text-blue-500"></i>
-                                <p class="text-sm leading-none text-slate-500">{{ $article->date }}</p>
+                                <p class="text-xs leading-none text-slate-500 md:text-sm">{{ $article->date }}</p>
                             </div>
                             <div class="flex items-center gap-1.5">
                                 <i class="ri-user-heart-line text-lg leading-none text-blue-500"></i>
-                                <p class="text-sm leading-none text-slate-500">{{ $article->author->name }}</p>
+                                <p class="text-xs leading-none text-slate-500 md:text-sm">{{ $article->author->name }}
+                                </p>
                             </div>
                         </div>
                         <a href="/berita/{{ $article->slug }}"
-                            class="my-2.5 inline-block text-xl font-medium leading-tight">{{ $article->title }}</a>
+                            class="my-2.5 inline-block text-lg font-medium leading-tight transition duration-200 hover:text-blue-700 md:text-xl">{{ $article->title }}</a>
                     </div>
                 @endforeach
             </div>
@@ -77,7 +88,7 @@
                 pengembangan potensi mereka secara menyeluruh. Kami juga berupaya menjadikan sekolah ini sebagai
                 tempat yang aman, nyaman, dan menyenangkan untuk belajar serta berkembang...
             </p>
-            <a href="#">
+            <a href="/sambutan-kepsek">
                 <x-buttons.button>
                     Selengkapnya<i class="ri-arrow-right-up-line font-normal"></i>
                 </x-buttons.button>
@@ -198,8 +209,8 @@
                 </p>
             </div>
             <div class="flex items-center gap-5 border-t border-solid border-slate-200 pt-5">
-                <img class="h-10 w-10 rounded-full object-cover" src="https://pagedone.io/asset/uploads/1696229969.png"
-                    alt="avatar" />
+                <img class="h-10 w-10 rounded-full object-cover"
+                    src="https://pagedone.io/asset/uploads/1696229969.png" alt="avatar" />
                 <div class="block">
                     <h5 class="font-medium leading-none text-slate-900 transition-all duration-500">Ahmad Lutfi Jailani
                     </h5>
@@ -231,5 +242,32 @@
         </div>
     </div>
     <x-cta-ppdb />
+    <script>
+        const slider = document.getElementById('image-slider');
+        const images = slider.querySelectorAll('.slider-image');
+        let currentIndex = 0;
+
+        function slideImages() {
+            const nextIndex = (currentIndex + 1) % images.length;
+
+            images[currentIndex].style.transform = 'translateX(-100%)';
+            images[nextIndex].style.transform = 'translateX(0)';
+
+            currentIndex = nextIndex;
+
+            // Prepare the next image
+            const nextNextIndex = (nextIndex + 1) % images.length;
+            setTimeout(() => {
+                images[nextNextIndex].style.transition = 'none';
+                images[nextNextIndex].style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    images[nextNextIndex].style.transition = 'transform 0.5s ease-in-out';
+                }, 50);
+            }, 500); // Wait for the current transition to finish
+        }
+
+        // Change images every 5 seconds
+        setInterval(slideImages, 5000);
+    </script>
 </x-app>
 

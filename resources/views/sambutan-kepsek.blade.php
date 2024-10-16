@@ -1,92 +1,59 @@
 <x-app>
     <div class="border-t border-t-white/20 bg-gradient-to-r from-blue-600 to-violet-500 py-16">
         <div class="mx-auto max-w-screen-xl px-5 text-white md:px-0">
-            <p class="text-center text-xl">Kompetensi Keahlian</p>
-            <p class="mt-1 text-center text-3xl font-bold">Teknik Sepeda Motor (TSM)</p>
+            <p class="text-center text-xl">Sambutan</p>
+            <p class="mt-1 text-center text-3xl font-bold">Kepala Sekolah</p>
         </div>
     </div>
     <div class="mx-auto w-full max-w-screen-xl px-5 py-10 md:px-0 md:py-16">
-        <div class="flex w-full flex-col gap-8 md:flex-row">
-            <div class="hidden w-full md:block md:max-w-[176px] md:border-r md:border-slate-200">
-                <ul class="tab-nav sticky top-28 flex flex-col items-center gap-6 md:items-start lg:gap-10">
-                    <li>
-                        <a href="#profil"
-                            class="text-base font-medium leading-7 text-slate-500 hover:text-indigo-600">Profil
-                            Jurusan</a>
-                    </li>
-                    <li>
-                        <a href="#kompetensi"
-                            class="text-base font-medium leading-7 text-slate-500 hover:text-indigo-600">Kompetensi
-                            Utama
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#karier"
-                            class="text-base font-medium leading-7 text-slate-500 hover:text-indigo-600">Peluang
-                            Karier</a>
-                    </li>
-                    <li>
-                        <a href="#galeri"
-                            class="text-base font-medium leading-7 text-slate-500 hover:text-indigo-600">Galeri</a>
-                    </li>
+        <div class="flex w-full flex-col gap-8 md:flex-row md:gap-12">
+            <div class="w-full md:block md:max-w-[323px]">
+                <ul class="tab-nav sticky top-28 flex flex-col items-start gap-5 border-b pb-7 md:border-none">
+                    <img src="/img/ui/kepala-sekolah.png" class="rounded-3xl bg-[#DDE9F8]">
+                    <div>
+                        <p class="text-2xl font-bold">Ari Dwi Handoko, S.Pd</p>
+                        <p class="mt-1 text-xl font-normal text-slate-500">Kepala Sekolah</p>
+                    </div>
                 </ul>
             </div>
             <div class="w-full">
                 <h2 id="profil" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Profil Jurusan
                     TKJ</h2>
-                <p class="mb-7 text-base font-normal leading-8 text-slate-500 md:text-lg">
-                    Jurusan Teknik Komputer dan Jaringan (TKJ) merupakan salah satu bidang keahlian di layai atau
-                    perguruan tinggi yang fokus pada penguasaan teknologi komputer dan jaringan.
-                    Program ini dirancang untuk memberikan siswa keterampilan praktis dalam instalasi, konfigurasi, dan
-                    pemeliharaan perangkat keras serta perangkat lunak komputer, jaringan komputer, dan sistem
-                    komunikasi data.
+                <p class="mb-4 text-base font-normal leading-8 text-slate-500 md:text-lg">
+                    Assalamu'alaikum Warahmatullahi Wabarakatuh,
                 </p>
-                <h5 id="kompetensi" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Kompetensi
-                    Utama</h5>
-                <ul class="mb-7 ml-8 space-y-2">
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Perangkat Keras Komputer: Siswa mempelajari cara merakit, menginstal, dan memperbaiki komputer.
-                        Mereka juga diajarkan tentang berbagai komponen perangkat keras seperti motherboard, prosesor,
-                        RAM, hard drive, dan lainnya.
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Jaringan Komputer: Siswa akan belajar tentang konsep dasar jaringan komputer, termasuk LAN
-                        (Local Area Network), WAN (Wide Area Network), dan perangkat jaringan seperti router, switch,
-                        dan firewall.
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Administrasi Server dan Jaringan: Mempelajari cara mengelola dan mengkonfigurasi server,
-                        termasuk server berbasis Linux dan Windows.
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Keamanan Jaringan: Penguasaan konsep keamanan jaringan untuk melindungi data dari ancaman
-                        seperti hacking, malware, dan virus. Siswa juga belajar tentang pengaturan firewall, enkripsi,
-                        dan VPN.
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Pemrograman Dasar: Biasanya diajarkan dasar-dasar pemrograman untuk mendukung pengelolaan sistem
-                        dan jaringan.
-                    </li>
-                </ul>
-                <h5 id="karier" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Peluang Karier
-                </h5>
-                <ul class="mb-7 ml-8 space-y-2">
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Teknisi Jaringan Komputer
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Programmer
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Administrator Sistem
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Spesialis Keamanan Jaringan
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Technical Support
-                    </li>
-                </ul>
+                <p class="mb-4 text-base font-normal leading-8 text-slate-500 md:text-lg">
+                    Segala puji bagi Allah Subhanahu Wa Ta'ala yang telah melimpahkan rahmat dan hidayah-Nya kepada kita
+                    semua. Shalawat serta salam semoga senantiasa tercurah kepada junjungan kita, Nabi Muhammad
+                    Shallallahu 'Alaihi Wasallam, keluarga, sahabat, dan pengikutnya hingga akhir zaman.
+                </p>
+                <p class="mb-4 text-base font-normal leading-8 text-slate-500 md:text-lg">
+                    Selamat datang di website resmi SMK Bina Nusantara Semarang, lembaga pendidikan yang berlandaskan
+                    nilai-nilai
+                    Islam dan mengedepankan pendidikan akhlak mulia serta kecerdasan intelektual. Melalui situs ini,
+                    kami berharap dapat menyajikan informasi yang bermanfaat serta menjadi media komunikasi antara
+                    sekolah, orang tua, dan masyarakat umum.
+                </p>
+                <p class="mb-4 text-base font-normal leading-8 text-slate-500 md:text-lg">
+                    Di SMK Bina Nusantara Semarang, kami berkomitmen untuk mencetak generasi muslim yang unggul, tidak
+                    hanya dalam
+                    bidang akademis, tetapi juga dalam moral dan spiritual. Dengan kurikulum yang memadukan ilmu
+                    pengetahuan umum dan agama, kami membimbing para siswa untuk menjadi insan yang berakhlakul karimah,
+                    cerdas, dan siap menghadapi tantangan zaman, sesuai dengan ajaran Islam.
+                </p>
+                <p class="mb-4 text-base font-normal leading-8 text-slate-500 md:text-lg">
+                    Kami juga terus berupaya meningkatkan mutu pendidikan, fasilitas, serta kegiatan ekstrakurikuler
+                    yang mendukung pengembangan potensi siswa secara holistik. Dengan bimbingan dan ridha Allah, semoga
+                    kita semua dapat melahirkan generasi penerus yang beriman, bertakwa, dan berprestasi.
+                </p>
+                <p class="mb-4 text-base font-normal leading-8 text-slate-500 md:text-lg">
+                    Akhir kata, kami mengucapkan terima kasih atas kepercayaan yang telah diberikan kepada SMK Bina
+                    Nusantara Semarang. Semoga website ini dapat memberikan gambaran yang jelas tentang visi, misi,
+                    serta kegiatan-kegiatan yang kami jalankan.
+                </p>
+                <p class="mb-4 text-base font-normal leading-8 text-slate-500 md:text-lg">
+                    Wassalamu'alaikum Warahmatullahi Wabarakatuh.
+                </p>
                 <h5 id="galeri" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Galeri</h5>
                 <div class="gallery">
                     <div cla ss="mb-10 flex flex-col">
@@ -119,3 +86,4 @@
         </div>
     </div>
 </x-app>
+
