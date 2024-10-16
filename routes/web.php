@@ -20,3 +20,22 @@ Route::get('/ppdb', function () {
 Route::get('/profil-sekolah', function () {
     return view('profil-sekolah');
 });
+
+Route::get('/jurusan/tkj', function () {
+    return view('jurusan-tkj');
+})->name('jurusan-tkj');
+
+Route::get('/jurusan/tsm', function () {
+    return view('jurusan-tsm');
+})->name('jurusan-tsm');
+
+Route::get('/jurusan/dpb', function () {
+    return view('jurusan-dpb');
+})->name('jurusan-dpb');
+
+Route::get('/jurusan/akt', function () {
+    return view('jurusan-akt');
+})->name('jurusan-akt');
+Route::get('/sambutan-kepsek', function () {
+    return view('sambutan-kepsek');
+})->name('sambutan-kepsek');

@@ -105,7 +105,8 @@
                             Mengelola, merancang, dan memelihara sistem jaringan komputer, serta
                             troubleshooting perangkat keras dan perangkat lunak.
                         </p>
-                        <a href="#" class="mt-1.5 inline-block text-base font-semibold text-blue-500">Profil
+                        <a href="{{ route('jurusan-tkj') }}"
+                            class="mt-1.5 inline-block text-base font-semibold text-blue-500">Profil
                             Jurusan TKJ -></a>
                     </div>
                 </div>
@@ -120,7 +121,8 @@
                             Mempersiapkan siswa untuk menjadi teknisi yang ahli dalam perbaikan dan perawatan sepeda
                             motor.
                         </p>
-                        <a href="#" class="mt-1.5 inline-block text-base font-semibold text-orange-500">Profil
+                        <a href="{{ route('jurusan-tsm') }}"
+                            class="mt-1.5 inline-block text-base font-semibold text-orange-500">Profil
                             Jurusan TSM -></a>
                     </div>
                 </div>
@@ -135,7 +137,8 @@
                             Keterampilan dalam mendesain, membuat pola, menjahit,
                             hingga menghasilkan produk fashion yang kreatif dan sesuai tren.
                         </p>
-                        <a href="#" class="mt-1.5 inline-block text-base font-semibold text-blue-500">Profil
+                        <a href="{{ route('jurusan-dpb') }}"
+                            class="mt-1.5 inline-block text-base font-semibold text-blue-500">Profil
                             Jurusan DPB -></a>
                     </div>
                 </div>
@@ -150,8 +153,9 @@
                             Pengembangan kemampuan dalam pencatatan keuangan, penyusunan laporan, serta
                             analisis keuangan.
                         </p>
-                        <a href="#" class="mt-1.5 inline-block text-base font-semibold text-blue-500">Profil
-                            Jurusan TKJ -></a>
+                        <a href="{{ route('jurusan-akt') }}"
+                            class="mt-1.5 inline-block text-base font-semibold text-blue-500">Profil
+                            Jurusan AKT -></a>
                     </div>
                 </div>
             </div>

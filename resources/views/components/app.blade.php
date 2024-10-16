@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
@@ -35,22 +35,45 @@
     <div class="sticky top-0 z-50 bg-gradient-to-r from-blue-600 to-violet-500">
         <div class="mx-auto flex max-w-screen-xl items-center justify-between py-4 text-white">
             <a href="/"><img src="/img/ui/logonav.svg"></a>
-            <div class="flex gap-7">
+            <div class="flex gap-8">
                 <a href="/" class="{{ request()->routeIs('home') ? 'font-bold' : '' }} hover:text-blue-200">
                     Beranda</a>
                 <a href="/berita"
                     class="{{ request()->routeIs('berita.detail', 'berita') ? 'font-bold' : '' }} hover:text-blue-200">
-                    Berita Sekolah</a>
+                    Berita</a>
                 <a href="/profil-sekolah" class="hover:text-blue-200">Profil Sekolah</a>
-                <a href="#" class="hover:text-blue-200">Jurusan</a>
+                <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                    class="{{ request()->routeIs('jurusan-tkj', 'jurusan-tsm', 'jurusan-dpb', 'jurusan-akt') ? 'font-bold' : '' }} hover:text-blue-200">Jurusan
+                    <i class="ri-arrow-down-s-line"></i></button>
                 {{-- <a href="#" class="hover:text-blue-200">Alumni</a> --}}
                 <a href="#" class="hover:text-blue-200">Kontak Kami</a>
             </div>
+
             <a href="/ppdb">
                 <x-buttons.button>
                     PPDB<i class="ri-arrow-right-up-line font-normal"></i>
                 </x-buttons.button>
             </a>
+        </div>
+        <div id="dropdown" class="z-10 hidden w-[260px] divide-y divide-slate-100 rounded-lg bg-white shadow">
+            <ul class="py-2 text-sm text-slate-700" aria-labelledby="dropdownDefaultButton">
+                <li>
+                    <a href="{{ route('jurusan-tkj') }}" class="block px-4 py-2 hover:bg-slate-100">
+                        <i class="ri-macbook-line me-2 text-blue-500"></i>Teknik Komputer dan Jaringan</a>
+                </li>
+                <li>
+                    <a href="{{ route('jurusan-tsm') }}" class="block px-4 py-2 hover:bg-slate-100">
+                        <i class="ri-settings-line me-2 text-blue-500"></i>Teknik Sepeda Motor</a>
+                </li>
+                <li>
+                    <a href="{{ route('jurusan-dpb') }}" class="block px-4 py-2 hover:bg-slate-100">
+                        <i class="ri-shirt-line me-2 text-blue-500"></i>Desain dan Produksi Busana</a>
+                </li>
+                <li>
+                    <a href="{{ route('jurusan-akt') }}" class="block px-4 py-2 hover:bg-slate-100">
+                        <i class="ri-calculator-line me-2 text-blue-500"></i>Akuntansi</a>
+                </li>
+            </ul>
         </div>
     </div>
 
