@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PpdbController;
 use App\Http\Controllers\ArticleController;
 
 // Route::get('/', function () {
@@ -11,11 +12,11 @@ use App\Http\Controllers\ArticleController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/berita/{slug}', [ArticleController::class, 'detail'])->name('berita.detail');
-Route::get('/berita/', [ArticleController::class, 'index'])->name('berita');
+Route::get('/berita', [ArticleController::class, 'index'])->name('berita');
 
-Route::get('/ppdb', function () {
-    return view('ppdb');
-});
+
+Route::get('/ppdb', [PpdbController::class, 'index'])->name('ppdb.index');
+Route::post('/ppdb', [PpdbController::class, 'create'])->name('ppdb.create');
 
 Route::get('/profil-sekolah', function () {
     return view('profil-sekolah');

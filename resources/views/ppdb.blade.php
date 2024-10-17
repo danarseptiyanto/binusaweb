@@ -2,7 +2,8 @@
     <div class="bg-slate-100 py-16">
         <div class="mx-auto flex max-w-screen-xl justify-between">
             <img class="h-fit w-[620px] rounded-xl" src="/img/ui/brosur-ppdb.jpeg">
-            <form class="w-[620px] rounded-xl bg-white p-10">
+            <form action="{{ route('ppdb.create') }}" method="POST" class="w-[620px] rounded-xl bg-white p-10">
+                @csrf
                 <div class="mb-5">
                     <h1 class="text-2xl font-bold">Formulir PPDB Online</h1>
                     <p class="mt-3 rounded-lg bg-blue-100 px-5 py-3 text-sm text-slate-700">
@@ -12,63 +13,64 @@
                 </div>
                 <div class="mb-4">
                     <label for="nama" class="mb-2 block text-sm font-medium text-slate-900">Nama Lengkap</label>
-                    <input type="text" id="name" name="name"
+                    <input type="text" id="nama" name="nama"
                         class="block w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm text-slate-900 focus:border-blue-500 focus:ring-blue-500"
-                        placeholder="Masukan Nama Lengkap" required />
+                        placeholder="Cth. Rafif Andi Pratama" required />
                 </div>
                 <div class="mb-4">
-                    <label for="nama" class="mb-2 block text-sm font-medium text-slate-900">Nomor WhatsApp
+                    <label for="wa-ortu" class="mb-2 block text-sm font-medium text-slate-900">Nomor WhatsApp
                         Orang Tua</label>
-                    <input type="text" id="name" name="name"
+                    <input type="text" id="wa-ortu" name="wa-ortu"
                         class="block w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm text-slate-900 focus:border-blue-500 focus:ring-blue-500"
-                        placeholder="Masukan No Hp" required />
+                        placeholder="Cth. 081234567890" required />
                 </div>
                 <div class="mb-4">
-                    <label for="nama" class="mb-2 block text-sm font-medium text-slate-900">Nomor WhatsApp
+                    <label for="wa-siswa" class="mb-2 block text-sm font-medium text-slate-900">Nomor WhatsApp
                         Siswa</label>
-                    <input type="text" id="name" name="name"
+                    <input type="text" id="wa-siswa" name="wa-siswa"
                         class="block w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm text-slate-900 focus:border-blue-500 focus:ring-blue-500"
-                        placeholder="Masukan No Hp" required />
+                        placeholder="Cth. 081234567890" required />
                 </div>
                 <div class="mb-4">
-                    <label for="nama" class="mb-2 block text-sm font-medium text-slate-900">Asal Sekolah</label>
-                    <input type="text" id="name" name="name"
+                    <label for="asal-sekolah" class="mb-2 block text-sm font-medium text-slate-900">Asal Sekolah</label>
+                    <input type="text" id="asal-sekolah" name="asal-sekolah"
                         class="block w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm text-slate-900 focus:border-blue-500 focus:ring-blue-500"
-                        placeholder="Masukan Asal Sekolah" required />
+                        placeholder="Cth. SMP N 18 Semarang" required />
                 </div>
                 <div class="mb-4 grid gap-6 md:grid-cols-2">
                     <div>
-                        <label for="first_name" class="mb-2 block text-sm font-medium text-slate-900">Tempat
+                        <label for="tpt-lahir" class="mb-2 block text-sm font-medium text-slate-900">Tempat
                             Lahir</label>
-                        <input type="text" id="first_name"
+                        <input type="text" id="tpt-lahir" name="tpt-lahir"
                             class="block w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm text-slate-900 focus:border-blue-500 focus:ring-blue-500"
-                            placeholder="John" required />
+                            placeholder="Semarang" required />
                     </div>
                     <div>
-                        <label for="last_name" class="mb-2 block text-sm font-medium text-slate-900">Tanggal
+                        <label for="tgl-lahir" class="mb-2 block text-sm font-medium text-slate-900">Tanggal
                             Lahir</label>
-                        <input type="text" id="last_name"
+                        <input type="text" id="tgl-lahir" name="tgl-lahir"
                             class="block w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm text-slate-900 focus:border-blue-500 focus:ring-blue-500"
-                            placeholder="Doe" required />
+                            placeholder="12 Desember 2009" required />
                     </div>
                     <div>
-                        <label for="first_name" class="mb-2 block text-sm font-medium text-slate-900">Nama Ibu</label>
-                        <input type="text" id="first_name"
+                        <label for="ibu" class="mb-2 block text-sm font-medium text-slate-900">Nama Ibu</label>
+                        <input type="text" id="ibu" name="ibu"
                             class="block w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm text-slate-900 focus:border-blue-500 focus:ring-blue-500"
-                            placeholder="John" required />
+                            placeholder="Cth. Siti" required />
                     </div>
                     <div>
-                        <label for="last_name" class="mb-2 block text-sm font-medium text-slate-900">Nama Ayah</label>
-                        <input type="text" id="last_name"
+                        <label for="ayah" class="mb-2 block text-sm font-medium text-slate-900">Nama Ayah</label>
+                        <input type="text" id="ayah" name="ayah"
                             class="block w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm text-slate-900 focus:border-blue-500 focus:ring-blue-500"
-                            placeholder="Doe" required />
+                            placeholder="Cth. Abdul" required />
                     </div>
                 </div>
                 <div class="mb-4">
-                    <label for="nama" class="mb-2 block text-sm font-medium text-slate-900">Alamat Rumah</label>
-                    <input type="text" id="name" name="name"
+                    <label for="alamat" class="mb-2 block text-sm font-medium text-slate-900">Alamat Rumah</label>
+                    <input type="text" id="alamat" name="alamat"
                         class="block w-full rounded-lg border border-slate-300 bg-slate-50 p-2.5 text-sm text-slate-900 focus:border-blue-500 focus:ring-blue-500"
-                        placeholder="Masukan Asal Sekolah" required />
+                        placeholder="Cth. Jln. Walisongo No. 1, Kel. Tambakaji, Kec. Ngaliyan, Kota Semarang"
+                        required />
                 </div>
 
                 {{-- <div class="mb-4 flex items-start">
