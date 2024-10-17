@@ -149,7 +149,7 @@
 </body>
 
 <footer class="bg-slate-900">
-    <div class="mx-auto w-full max-w-screen-xl py-6 lg:py-8">
+    <div class="mx-auto w-full max-w-screen-xl px-5 py-6 md:px-0 lg:py-8">
         <div class="mt-7 md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="https://flowbite.com/" class="flex items-center">
@@ -193,7 +193,7 @@
             </div>
         </div>
         <hr class="my-6 border-slate-700 sm:mx-auto lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-between">
+        <div class="flex sm:items-center sm:justify-between">
             <span class="text-sm text-slate-400 sm:text-center">© 2024 SMK Bina Nusantara Semarang
             </span>
             <div class="mt-4 flex sm:mt-0 sm:justify-center">

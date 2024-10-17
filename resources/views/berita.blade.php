@@ -1,11 +1,11 @@
 <x-app>
-    <div class="border-t border-t-white/20 bg-gradient-to-r from-blue-600 to-violet-500 py-16">
+    <div class="border-t border-t-white/20 bg-gradient-to-r from-blue-600 to-violet-500 px-5 py-10 md:px-5 md:py-16">
         <div class="mx-auto max-w-screen-xl text-white">
-            <p class="text-3xl font-bold">Berita Sekolah</p>
-            <p class="mt-1 text-xl">Berita dan Pengumaman Terbaru SMK Binusa</p>
+            <p class="text-2xl font-bold md:text-3xl">Berita Sekolah</p>
+            <p class="mt-1 text-lg md:text-xl">Berita dan Pengumaman Terbaru SMK Binusa</p>
         </div>
     </div>
-    <form class="mx-auto mt-6 max-w-screen-xl">
+    <form class="mx-auto mt-6 max-w-screen-xl px-5 md:px-0">
         <label for="default-search" class="sr-only mb-2 text-sm font-medium text-slate-900">Search</label>
         <div class="relative">
             <div class="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3">
@@ -22,22 +22,26 @@
                 class="absolute bottom-2.5 end-2.5 rounded-xl bg-blue-700 px-4 py-2 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300">Search</button>
         </div>
     </form>
-    <div class="mx-auto mb-7 mt-6 grid max-w-screen-xl grid-cols-3 gap-6">
+    <div class="mx-auto mb-7 mt-6 grid max-w-screen-xl grid-cols-1 gap-6 px-5 md:grid-cols-3 md:px-0">
         @foreach ($articles as $article)
-            <div class="mb-4">
-                <img class="aspect-video rounded-2xl object-cover" src="/upload/{{ $article->thumbnail }}">
+            <div>
+                <a href="/berita/{{ $article->slug }}">
+                    <img class="aspect-video rounded-2xl object-cover hover:scale-[0.99] hover:transform hover:object-center hover:duration-300"
+                        src="/upload/{{ $article->thumbnail }}">
+                </a>
                 <div class="mt-5 flex gap-7">
                     <div class="flex items-center gap-1.5">
                         <i class="ri-calendar-todo-line text-lg leading-none text-blue-500"></i>
-                        <p class="text-sm leading-none text-slate-500">{{ $article->date }}</p>
+                        <p class="text-xs leading-none text-slate-500 md:text-sm">{{ $article->date }}</p>
                     </div>
                     <div class="flex items-center gap-1.5">
                         <i class="ri-user-heart-line text-lg leading-none text-blue-500"></i>
-                        <p class="text-sm leading-none text-slate-500">{{ $article->author->name }}</p>
+                        <p class="text-xs leading-none text-slate-500 md:text-sm">{{ $article->author->name }}
+                        </p>
                     </div>
                 </div>
                 <a href="/berita/{{ $article->slug }}"
-                    class="my-2.5 inline-block text-lg font-medium leading-tight">{{ $article->title }}</a>
+                    class="my-2.5 inline-block text-lg font-medium leading-tight transition duration-200 hover:text-blue-700 md:text-xl">{{ $article->title }}</a>
             </div>
         @endforeach
     </div>

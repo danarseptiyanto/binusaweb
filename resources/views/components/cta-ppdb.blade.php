@@ -1,10 +1,10 @@
 <div
-    class="mx-auto mb-16 flex max-w-screen-xl flex-col items-center justify-between rounded-2xl bg-gradient-to-r from-blue-700 to-violet-600 p-10 lg:flex-row lg:px-20 lg:py-14">
+    class="mx-5 mb-10 flex flex-col items-center justify-between rounded-2xl bg-gradient-to-r from-blue-700 to-violet-600 p-10 md:mx-auto md:mb-16 md:max-w-screen-xl md:px-0 lg:flex-row lg:px-20 lg:py-10">
     <div class="mb-5 block text-center lg:mb-0 lg:text-left">
-        <h2 class="font-manrope mb-5 text-4xl font-semibold text-white lg:mb-2">
+        <h2 class="font-manrope mb-2 text-2xl font-semibold text-white md:text-4xl">
             PPDB Sudah Dibuka
         </h2>
-        <p class="text-xl text-indigo-100">
+        <p class="text-base text-indigo-100 md:text-xl">
             Penerimaan peserta Didik Baru TA 2025/26
         </p>
     </div>
@@ -18,3 +18,4 @@
         </svg>
     </a>
 </div>
+

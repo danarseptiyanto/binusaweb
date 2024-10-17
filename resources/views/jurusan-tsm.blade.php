@@ -1,5 +1,5 @@
 <x-app>
-    <div class="border-t border-t-white/20 bg-gradient-to-r from-blue-600 to-violet-500 py-16">
+    <div class="border-t border-t-white/20 bg-gradient-to-r from-blue-600 to-violet-500 px-5 py-10 md:px-5 md:py-16">
         <div class="mx-auto max-w-screen-xl px-5 text-white md:px-0">
             <p class="text-center text-xl">Kompetensi Keahlian</p>
             <p class="mt-1 text-center text-3xl font-bold">Teknik Sepeda Motor (TSM)</p>
@@ -119,3 +119,4 @@
         </div>
     </div>
 </x-app>
+

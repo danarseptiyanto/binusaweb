@@ -1,8 +1,9 @@
 <x-app>
-    <div class="bg-slate-100 py-16">
-        <div class="mx-auto flex max-w-screen-xl justify-between">
+    <div class="bg-slate-100 py-6 md:py-16">
+        <div class="mx-5 flex max-w-screen-xl flex-col-reverse justify-between md:mx-auto md:flex-row">
             <img class="h-fit w-[620px] rounded-xl" src="/img/ui/brosur-ppdb.jpeg">
-            <form action="{{ route('ppdb.create') }}" method="POST" class="w-[620px] rounded-xl bg-white p-10">
+            <form action="{{ route('ppdb.create') }}" method="POST"
+                class="mb-7 w-full rounded-xl bg-white p-5 md:mb-7 md:w-[620px] md:p-10">
                 @csrf
                 <div class="mb-5">
                     <h1 class="text-2xl font-bold">Formulir PPDB Online</h1>
@@ -88,3 +89,4 @@
         </div>
     </div>
 </x-app>
+
