@@ -32,7 +32,7 @@ class ArticleResource extends Resource
         return $form
             ->schema([
                 Section::make('Detail Artikel')
-                    ->description('masukan infromasi artikel pada kolom di bawah ini')
+                    ->description('Masukan infromasi artikel pada kolom di bawah ini')
                     ->collapsible()
                     ->schema([
                         TextInput::make('title')->required()->maxLength(255),
@@ -85,7 +85,7 @@ class ArticleResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('title')->searchable(),
-                TextColumn::make('authors.id')->sortable(),
+                TextColumn::make('author.name')->sortable(),
             ])
             ->filters([
                 //

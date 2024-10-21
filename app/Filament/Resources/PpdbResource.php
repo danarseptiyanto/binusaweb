@@ -43,13 +43,16 @@ class PpdbResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('nama')->searchable(),
+                TextColumn::make('asal-sekolah')->sortable(),
+                TextColumn::make('wa-ortu')->sortable(),
+                TextColumn::make('tgl-lahir')->sortable(),
             ])
             ->filters([
                 //
             ])
             ->actions([
                 Tables\Actions\ViewAction::make('view')
-                    ->label('Detail') // Customize the button label if needed
+                    ->label('Detail')
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([

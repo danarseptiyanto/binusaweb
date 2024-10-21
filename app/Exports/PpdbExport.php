@@ -13,15 +13,34 @@ class PpdbExport implements FromCollection, WithHeadings
      */
     public function collection()
     {
-        return Ppdb::select('id', 'name', 'email')->get();
+        static $number = 1;
+        return Ppdb::select($number++, 'nama', 'wa-ortu', 'wa-siswa', 'asal-sekolah', 'tpt-lahir', 'tgl-lahir', 'ibu', 'ayah', 'alamat')->get();
     }
 
     public function headings(): array
     {
         return [
-            'ID',
+            'No',
             'Name',
-            'Email',
+            'WA Ortu',
+            'WA Siswa',
+            'SMP',
+            'Tempat Lahir',
+            'Tanggal Lahir',
+            'Ibu',
+            'Ayah',
+            'Alamat'
+        ];
+    }
+
+    public function columnWidths(): array
+    {
+        return [
+            'A' => 5,   // Column "No."
+            'B' => 10,  // Column "ID"
+            'C' => 20,  // Column "Name"
+            'D' => 30,  // Column "Email"
+            // Set other column widths as necessary
         ];
     }
 }
