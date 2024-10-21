@@ -8,6 +8,7 @@ use Filament\Tables;
 use Filament\Forms\Form;
 use Filament\Tables\Table;
 use Filament\Resources\Resource;
+use Illuminate\Support\Facades\Auth;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Database\Eloquent\Builder;
 use App\Filament\Resources\PpdbResource\Pages;
@@ -16,6 +17,12 @@ use App\Filament\Resources\PpdbResource\RelationManagers;
 
 class PpdbResource extends Resource
 {
+
+    public static function canViewAny(): bool
+    {
+        return Auth::check() && Auth::user()->role === 'admin';
+    }
+
     protected static ?string $model = Ppdb::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';

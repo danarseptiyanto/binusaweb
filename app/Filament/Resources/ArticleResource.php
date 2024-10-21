@@ -31,8 +31,8 @@ class ArticleResource extends Resource
     {
         return $form
             ->schema([
-                Section::make('Detail Post')
-                    ->description('Add information for your project on all of the colomn below')
+                Section::make('Detail Artikel')
+                    ->description('masukan infromasi artikel pada kolom di bawah ini')
                     ->collapsible()
                     ->schema([
                         TextInput::make('title')->required()->maxLength(255),
