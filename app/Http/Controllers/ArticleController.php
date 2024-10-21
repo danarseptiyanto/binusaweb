@@ -7,11 +7,22 @@ use Illuminate\Http\Request;
 
 class ArticleController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $articles = Article::latest()->get();
+        $search = $request->input('search');
+        $filterLabel = $request->input('label'); // Get the label filter from the request
 
-        return view('berita', compact('articles'));
+        $articles = Article::query()
+            ->when($search, function ($query, $search) {
+                return $query->where('title', 'like', '%' . $search . '%');
+            })
+            ->when($filterLabel, function ($query, $filterLabel) {
+                return $query->whereJsonContains('label', $filterLabel);
+            })
+            ->latest()
+            ->paginate(9);
+
+        return view('berita', compact('articles', 'search', 'filterLabel'));
     }
 
     public function detail($slug)

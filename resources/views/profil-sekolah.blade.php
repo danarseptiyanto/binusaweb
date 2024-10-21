@@ -57,8 +57,8 @@
             <div class="flex w-full items-end justify-center lg:justify-end">
                 <div
                     class="relative h-full w-full rounded-3xl border-slate-200 sm:h-[646px] sm:w-[564px] sm:border sm:bg-slate-100">
-                    <img class="h-full w-full rounded-3xl object-cover sm:ml-5 sm:mt-5"
-                        src="https://pagedone.io/asset/uploads/1717742431.png" alt="about Us image" />
+                    <img class="h-full w-full rounded-3xl object-cover sm:ml-5 sm:mt-5" src="/img/ui/foto-gedung.jpg"
+                        alt="about Us image" />
                 </div>
             </div>
         </div>

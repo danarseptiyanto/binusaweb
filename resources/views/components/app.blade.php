@@ -1,9 +1,12 @@
+@props(['title' => 'SMK Bina Nusantara Semarang'])
 <!doctype html>
 <html class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
+    <title>{{ $title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/ui/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     @vite('resources/css/app.css')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
@@ -51,24 +54,24 @@
                 {{-- <a href="#" class="hover:text-blue-200 py-5 px-4">Alumni</a> --}}
                 <a href="#" class="px-4 py-5 hover:text-blue-200">Kontak Kami</a>
             </div>
-            <button type="button" data-modal-target="crypto-modal" data-modal-toggle="crypto-modal"
-                class="my-3.5 inline-flex h-fit w-fit items-center rounded-full bg-white/50 p-2 text-center text-sm text-gray-900 hover:bg-gray-100 md:hidden">
+            <button type="button" data-modal-target="menu-modal" data-modal-toggle="menu-modal"
+                class="my-3.5 inline-flex h-fit w-fit items-center rounded-full bg-white/50 p-2 text-center text-sm text-slate-900 hover:bg-slate-100 md:hidden">
                 <img class="h-5" src="/img/ui/hamburger.svg" alt="">
             </button>
             <!-- Main modal -->
-            <div id="crypto-modal" tabindex="-1" aria-hidden="true"
+            <div id="menu-modal" tabindex="-1" aria-hidden="true"
                 class="fixed left-0 right-0 top-0 z-50 hidden h-full max-h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden bg-black/50 md:inset-0">
                 <div class="relative max-h-full w-full max-w-md p-4">
                     <!-- Modal content -->
                     <div class="relative rounded-lg bg-white shadow">
                         <!-- Modal header -->
-                        <div class="flex items-center justify-between rounded-t border-b p-4 md:p-5">
-                            <h3 class="text-lg font-semibold text-gray-900">
-                                Connect wallet
+                        <div class="flex items-center justify-between rounded-t px-4 pb-0 pt-4 md:px-5">
+                            <h3 class="text-lg font-semibold text-slate-900">
+                                Menu
                             </h3>
                             <button type="button"
-                                class="ms-auto inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900"
-                                data-modal-toggle="crypto-modal">
+                                class="ms-auto inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-slate-400 hover:bg-slate-200 hover:text-slate-900"
+                                data-modal-toggle="menu-modal">
                                 <svg class="h-3 w-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 14 14">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -78,40 +81,73 @@
                             </button>
                         </div>
                         <!-- Modal body -->
-                        <div class="p-4 md:p-5">
-                            <p class="text-sm font-normal text-gray-500">Connect with one of our
-                                available wallet providers or create a new one.</p>
-                            <ul class="my-4 space-y-3">
+                        <div class="p-4 pb-6 md:p-5">
+                            <ul class="space-y-3">
                                 <li>
                                     <a href="#"
-                                        class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-bold text-gray-900 hover:bg-gray-100 hover:shadow">
-                                        <span class="ms-3 flex-1 whitespace-nowrap">Opera Wallet</span>
+                                        class="group flex items-center rounded-lg bg-slate-50 p-3 text-base font-semibold text-slate-900 hover:bg-slate-100 hover:shadow">
+                                        <span class="ms-3 flex-1 whitespace-nowrap">Beranda</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-bold text-gray-900 hover:bg-gray-100 hover:shadow">
-                                        <span class="ms-3 flex-1 whitespace-nowrap">Opera Wallet</span>
+                                        class="group flex items-center rounded-lg bg-slate-50 p-3 text-base font-semibold text-slate-900 hover:bg-slate-100 hover:shadow">
+                                        <span class="ms-3 flex-1 whitespace-nowrap">Berita Sekolah</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-bold text-gray-900 hover:bg-gray-100 hover:shadow">
-                                        <span class="ms-3 flex-1 whitespace-nowrap">Opera Wallet</span>
+                                        class="group flex items-center rounded-lg bg-slate-50 p-3 text-base font-semibold text-slate-900 hover:bg-slate-100 hover:shadow">
+                                        <span class="ms-3 flex-1 whitespace-nowrap">Profil Sekolah</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <button id="dropdownDefaultx" data-dropdown-toggle="dropdownx"
+                                        class="group flex w-full items-center rounded-lg bg-slate-50 p-3 text-start text-base font-semibold text-slate-900 hover:bg-slate-100 hover:shadow">
+                                        <span class="ms-3 flex-1 whitespace-nowrap">Jurusan</span>
+                                    </button>
+                                    <div id="dropdownx"
+                                        class="z-10 hidden w-[260px] divide-y divide-slate-100 rounded-lg bg-white shadow">
+                                        <ul class="py-2 text-sm text-slate-700" aria-labelledby="dropdownDefaultx">
+                                            <li>
+                                                <a href="{{ route('jurusan-tkj') }}"
+                                                    class="block px-4 py-2 hover:bg-slate-100">
+                                                    <i class="ri-macbook-line me-2 text-blue-500"></i>Teknik Komputer
+                                                    dan Jaringan</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('jurusan-tsm') }}"
+                                                    class="block px-4 py-2 hover:bg-slate-100">
+                                                    <i class="ri-settings-line me-2 text-blue-500"></i>Teknik Sepeda
+                                                    Motor</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('jurusan-dpb') }}"
+                                                    class="block px-4 py-2 hover:bg-slate-100">
+                                                    <i class="ri-shirt-line me-2 text-blue-500"></i>Desain dan Produksi
+                                                    Busana</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('jurusan-akt') }}"
+                                                    class="block px-4 py-2 hover:bg-slate-100">
+                                                    <i class="ri-calculator-line me-2 text-blue-500"></i>Akuntansi</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="group flex items-center rounded-lg bg-slate-50 p-3 text-base font-semibold text-slate-900 hover:bg-slate-100 hover:shadow">
+                                        <span class="ms-3 flex-1 whitespace-nowrap">Kontak Kami</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/ppdb"
+                                        class="group flex items-center rounded-lg bg-gradient-to-r from-blue-600 to-violet-500 p-3 text-base font-semibold text-white hover:from-blue-700 hover:shadow">
+                                        <span class="ms-3 flex-1 whitespace-nowrap">PPDB 2025/2026</span>
                                     </a>
                                 </li>
                             </ul>
-                            <div>
-                                <a href="#"
-                                    class="inline-flex items-center text-xs font-normal text-gray-500 hover:underline">
-                                    <svg class="me-2 h-3 w-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                        fill="none" viewBox="0 0 20 20">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M7.529 7.988a2.502 2.502 0 0 1 5 .191A2.441 2.441 0 0 1 10 10.582V12m-.01 3.008H10M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                    </svg>
-                                    Why do I need to connect with my wallet?</a>
-                            </div>
                         </div>
                     </div>
                 </div>

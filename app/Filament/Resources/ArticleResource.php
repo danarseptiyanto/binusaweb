@@ -36,7 +36,7 @@ class ArticleResource extends Resource
                     ->collapsible()
                     ->schema([
                         TextInput::make('title')->required()->maxLength(255),
-                        Grid::make(3)
+                        Grid::make(2)
                             ->schema([
                                 Select::make('author_id')
                                     ->relationship('author', 'name')
@@ -51,9 +51,17 @@ class ArticleResource extends Resource
                                     ->rule('regex:/^[a-z0-9]+(?:-[a-z0-9]+)*$/')
                                     ->maxLength(255),
                                 DatePicker::make('date'),
-                                // TextInput::make('date')
-                                //     ->required()
-                                //     ->maxLength(255),
+                                Select::make('label')
+                                    ->multiple()
+                                    ->options([
+                                        'Berita Sekolah' => 'Berita Sekolah',
+                                        'Prestasi Terkini' => 'Prestasi Terkini',
+                                        'Pengumuman' => 'Pengumuman',
+                                        'Teknik Komputer dan Jaringan' => 'Teknik Komputer dan Jaringan',
+                                        'Teknik Sepeda Motor' => 'Teknik Sepeda Motor',
+                                        'Desain dan Produksi Busana' => 'Desain dan Produksi Busana',
+                                        'Akuntansi' => 'Akuntansi',
+                                    ])
                             ]),
                         MarkdownEditor::make('content')->columnSpan('full')
                             ->fileAttachmentsDisk('uploads')

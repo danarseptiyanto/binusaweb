@@ -2,7 +2,7 @@
     data-aos-duration="650" data-aos-once="true">
     <img src="/img/ui/video-thumbnail.jpg" class="aspect-video rounded-xl object-cover md:rounded-3xl">
     <div class="absolute inset-0 flex items-center justify-center">
-        <a href="https://www.youtube.com/watch?v=UDgmAATB0GA" target="_blank">
+        <a href="https://www.youtube.com/watch?v=_-Rajt-a_J4" target="_blank">
             <img src="/img/ui/play-icon.svg"
                 class="w-14 rounded-full bg-blue-500 bg-opacity-65 p-4 transition duration-150 hover:bg-blue-800 md:w-20 md:p-6">
         </a>
