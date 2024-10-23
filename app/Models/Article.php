@@ -14,4 +14,8 @@ class Article extends Model
     {
         return $this->belongsTo(Author::class);
     }
+
+    protected $casts = [
+        'label' => 'array',
+    ];
 }
