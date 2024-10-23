@@ -1,5 +1,29 @@
 <x-app>
     <div class="bg-slate-100 py-6 md:py-16">
+        @if (session('success'))
+            <div class="mx-auto max-w-screen-xl p-5 md:p-0">
+                <div id="alert-additional-content-5" class="mb-10 rounded-lg border border-slate-200 bg-white p-8"
+                    role="alert">
+                    <div class="flex items-center">
+                        <i class="ri-checkbox-circle-fill me-1.5 text-lg text-green-500"></i>
+                        <h3 class="text-lg font-bold text-slate-800">Pendaftaran Berhasil!</h3>
+                    </div>
+                    <div class="mb-4 mt-2 text-slate-500">
+                        Terima kasih sudah mendaftar! Informasi pendaftaran kamu sudah tercatat, kami akan segera
+                        menghubungi anda via WhatsApp untuk menginformasikan terkait daftar ulang, pembayaran dan
+                        onformasi
+                        penting lainnya!
+                    </div>
+                    <div class="flex">
+                        <button type="button"
+                            class="rounded-lg border border-slate-700 bg-transparent px-3 py-1.5 text-center text-xs font-medium text-slate-800 hover:bg-slate-800 hover:text-white focus:outline-none focus:ring-4 focus:ring-slate-300"
+                            data-dismiss-target="#alert-additional-content-5" aria-label="Close">
+                            Tutup
+                        </button>
+                    </div>
+                </div>
+            </div>
+        @endif
         <div class="mx-5 flex max-w-screen-xl flex-col-reverse justify-between md:mx-auto md:flex-row">
             <img class="h-fit w-[620px] rounded-xl" src="/img/ui/brosur-ppdb.jpeg">
             <form action="{{ route('ppdb.create') }}" method="POST"

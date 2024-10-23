@@ -28,6 +28,6 @@ class PpdbController extends Controller
 
         Ppdb::create($validatedData);
 
-        return redirect('/ppdb/success')->with('success', 'Pendaftaran Berhasil');
+        return redirect('/ppdb')->with('success', 'Pendaftaran Berhasil');
     }
 }

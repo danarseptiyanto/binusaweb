@@ -84,19 +84,19 @@
                         <div class="p-4 pb-6 md:p-5">
                             <ul class="space-y-3">
                                 <li>
-                                    <a href="#"
+                                    <a href="/"
                                         class="group flex items-center rounded-lg bg-slate-50 p-3 text-base font-semibold text-slate-900 hover:bg-slate-100 hover:shadow">
                                         <span class="ms-3 flex-1 whitespace-nowrap">Beranda</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#"
+                                    <a href="/berita"
                                         class="group flex items-center rounded-lg bg-slate-50 p-3 text-base font-semibold text-slate-900 hover:bg-slate-100 hover:shadow">
                                         <span class="ms-3 flex-1 whitespace-nowrap">Berita Sekolah</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#"
+                                    <a href="/profil-sekolah"
                                         class="group flex items-center rounded-lg bg-slate-50 p-3 text-base font-semibold text-slate-900 hover:bg-slate-100 hover:shadow">
                                         <span class="ms-3 flex-1 whitespace-nowrap">Profil Sekolah</span>
                                     </a>
