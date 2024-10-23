@@ -109,7 +109,7 @@
             <div data-aos="fade-up" data-aos-duration="650" data-aos-once="true">
                 <h2 class="text-center text-2xl font-semibold md:text-4xl">Kompetensi Keahlian</h2>
                 <p class="mx-auto mt-1 w-full text-center text-base text-slate-500 md:mt-4 md:w-[560px] md:text-xl">
-                    Jelajahi berbagai pilihan Kompetensi kejuruan yang di layani SMK Bina Nusantara Semarang berikut
+                    Jelajahi berbagai pilihan Kompetensi kejuruan yang dilayani SMK Bina Nusantara Semarang berikut
                     ini
                 </p>
             </div>
