@@ -33,58 +33,55 @@
             </div>
             <div class="w-full">
                 <h2 id="profil" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Profil Jurusan
-                    TKJ</h2>
+                    TSM</h2>
                 <p class="mb-7 text-base font-normal leading-8 text-slate-500 md:text-lg">
-                    Jurusan Teknik Komputer dan Jaringan (TKJ) merupakan salah satu bidang keahlian di layai atau
-                    perguruan tinggi yang fokus pada penguasaan teknologi komputer dan jaringan.
-                    Program ini dirancang untuk memberikan siswa keterampilan praktis dalam instalasi, konfigurasi, dan
-                    pemeliharaan perangkat keras serta perangkat lunak komputer, jaringan komputer, dan sistem
-                    komunikasi data.
+                    Jurusan Teknik Sepeda Motor (TSM) adalah program pendidikan kejuruan yang berfokus pada penguasaan
+                    teknologi otomotif, khususnya dalam bidang perawatan, perbaikan, dan pengelolaan sepeda motor.
+                    Program ini bertujuan untuk menghasilkan tenaga kerja yang terampil dan kompeten dalam industri
+                    otomotif, baik dari segi mekanik maupun elektronik sepeda motor.
                 </p>
                 <h5 id="kompetensi" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Kompetensi
                     Utama</h5>
                 <ul class="mb-7 ml-8 space-y-2">
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Perangkat Keras Komputer: Siswa mempelajari cara merakit, menginstal, dan memperbaiki komputer.
-                        Mereka juga diajarkan tentang berbagai komponen perangkat keras seperti motherboard, prosesor,
-                        RAM, hard drive, dan lainnya.
+                        Pemeliharaan Sepeda Motor: Siswa mempelajari cara melakukan perawatan rutin sepeda motor,
+                        termasuk pemeriksaan sistem kelistrikan, pelumas, sistem pendingin, dan rem.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Jaringan Komputer: Siswa akan belajar tentang konsep dasar jaringan komputer, termasuk LAN
-                        (Local Area Network), WAN (Wide Area Network), dan perangkat jaringan seperti router, switch,
-                        dan firewall.
+                        Perbaikan Mesin Sepeda Motor: Pelajaran ini meliputi cara memperbaiki dan merawat komponen mesin
+                        sepeda motor, seperti piston, kopling, transmisi, dan karburator.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Administrasi Server dan Jaringan: Mempelajari cara mengelola dan mengkonfigurasi server,
-                        termasuk server berbasis Linux dan Windows.
+                        Sistem Kelistrikan dan Elektronik: Siswa diajarkan tentang sistem kelistrikan sepeda motor,
+                        termasuk sistem pengapian, sistem pencahayaan, serta troubleshooting kelistrikan.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Keamanan Jaringan: Penguasaan konsep keamanan jaringan untuk melindungi data dari ancaman
-                        seperti hacking, malware, dan virus. Siswa juga belajar tentang pengaturan firewall, enkripsi,
-                        dan VPN.
+                        Sistem Injeksi dan Teknologi Baru: Menguasai teknologi terbaru seperti sistem injeksi bahan
+                        bakar elektronik (EFI), yang semakin banyak digunakan di sepeda motor modern.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Pemrograman Dasar: Biasanya diajarkan dasar-dasar pemrograman untuk mendukung pengelolaan sistem
-                        dan jaringan.
+                        Keselamatan dan Kesehatan Kerja (K3): Diajarkan juga mengenai prosedur keselamatan dan standar
+                        kerja yang aman selama melakukan perbaikan dan perawatan sepeda motor.
                     </li>
                 </ul>
                 <h5 id="karier" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Peluang Karier
                 </h5>
                 <ul class="mb-7 ml-8 space-y-2">
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Teknisi Jaringan Komputer
+                        Mekanik Sepeda Motor: Bekerja di bengkel resmi atau independen sebagai teknisi yang menangani
+                        perbaikan dan perawatan sepeda motor.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Programmer
+                        Spesialis Injeksi Bahan Bakar: Khusus dalam menangani sistem injeksi bahan bakar modern yang
+                        semakin umum di sepeda motor.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Administrator Sistem
+                        Wirausaha Bengkel: Membuka bengkel sendiri dengan fokus pada layanan perbaikan dan perawatan
+                        sepeda motor.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Spesialis Keamanan Jaringan
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Technical Support
+                        Dealer dan Layanan Purna Jual: Bekerja di dealer sepeda motor sebagai teknisi layanan atau
+                        bagian dari tim layanan purna jual.
                     </li>
                 </ul>
                 <h5 id="galeri" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Galeri</h5>

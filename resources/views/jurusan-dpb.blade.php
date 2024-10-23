@@ -33,58 +33,61 @@
             </div>
             <div class="w-full">
                 <h2 id="profil" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Profil Jurusan
-                    TKJ</h2>
+                    DPB</h2>
                 <p class="mb-7 text-base font-normal leading-8 text-slate-500 md:text-lg">
-                    Jurusan Teknik Komputer dan Jaringan (TKJ) merupakan salah satu bidang keahlian di layai atau
-                    perguruan tinggi yang fokus pada penguasaan teknologi komputer dan jaringan.
-                    Program ini dirancang untuk memberikan siswa keterampilan praktis dalam instalasi, konfigurasi, dan
-                    pemeliharaan perangkat keras serta perangkat lunak komputer, jaringan komputer, dan sistem
-                    komunikasi data.
+                    Jurusan Desain dan Produksi Busana merupakan program keahlian yang mengajarkan keterampilan dalam
+                    mendesain, memproduksi, dan mengelola busana secara kreatif dan teknis. Program ini bertujuan untuk
+                    menghasilkan tenaga profesional yang kompeten di bidang fesyen, mulai dari konsep desain hingga
+                    proses produksi pakaian siap pakai. Jurusan ini cocok bagi mereka yang memiliki minat dalam dunia
+                    mode dan industri tekstil.
                 </p>
                 <h5 id="kompetensi" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Kompetensi
                     Utama</h5>
                 <ul class="mb-7 ml-8 space-y-2">
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Perangkat Keras Komputer: Siswa mempelajari cara merakit, menginstal, dan memperbaiki komputer.
-                        Mereka juga diajarkan tentang berbagai komponen perangkat keras seperti motherboard, prosesor,
-                        RAM, hard drive, dan lainnya.
+                        Desain Busana: Siswa mempelajari teknik menggambar sketsa mode, pengembangan konsep desain, dan
+                        tren fesyen terkini. Pelatihan meliputi pembuatan pola busana hingga perancangan desain untuk
+                        berbagai jenis pakaian, baik formal, kasual, maupun busana adat.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Jaringan Komputer: Siswa akan belajar tentang konsep dasar jaringan komputer, termasuk LAN
-                        (Local Area Network), WAN (Wide Area Network), dan perangkat jaringan seperti router, switch,
-                        dan firewall.
+                        Teknik Pembuatan Pola: Menguasai keterampilan dalam membuat pola dasar busana yang disesuaikan
+                        dengan ukuran tubuh, serta mengubah pola sesuai dengan desain yang diinginkan.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Administrasi Server dan Jaringan: Mempelajari cara mengelola dan mengkonfigurasi server,
-                        termasuk server berbasis Linux dan Windows.
+                        Teknik Menjahit: Siswa diajarkan keterampilan menjahit dengan tangan maupun mesin jahit,
+                        termasuk teknik dasar seperti penjahitan, penyulaman, dan penyelesaian busana.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Keamanan Jaringan: Penguasaan konsep keamanan jaringan untuk melindungi data dari ancaman
-                        seperti hacking, malware, dan virus. Siswa juga belajar tentang pengaturan firewall, enkripsi,
-                        dan VPN.
+                        Tekstil dan Material Busana: Memahami berbagai jenis kain, bahan, dan aksesoris busana serta
+                        bagaimana cara memilih material yang sesuai untuk desain yang dirancang.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Pemrograman Dasar: Biasanya diajarkan dasar-dasar pemrograman untuk mendukung pengelolaan sistem
-                        dan jaringan.
+                        Produksi Busana: Mengelola proses produksi busana, mulai dari pemotongan kain, penjahitan,
+                        hingga penyelesaian akhir yang melibatkan teknik-teknik finishing dan pengecekan kualitas.
                     </li>
                 </ul>
                 <h5 id="karier" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Peluang Karier
                 </h5>
                 <ul class="mb-7 ml-8 space-y-2">
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Teknisi Jaringan Komputer
+                        Desainer Busana: Merancang pakaian dan aksesoris untuk rumah mode, brand fesyen, atau bahkan
+                        membuka label fesyen sendiri.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Programmer
+                        Penjahit Profesional: Bekerja sebagai penjahit di industri mode atau secara mandiri dengan
+                        membuka usaha tailor.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Administrator Sistem
+                        Pembuat Pola (Pattern Maker): Spesialis dalam membuat pola dasar dan pola modifikasi yang
+                        digunakan untuk produksi massal busana.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Spesialis Keamanan Jaringan
+                        Konsultan Fesyen: Memberikan saran dan layanan di bidang fesyen, baik untuk individu, butik,
+                        atau perusahaan.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Technical Support
+                        Manajer Produksi Busana: Mengelola jalur produksi pakaian di pabrik atau bisnis fesyen skala
+                        kecil hingga menengah.
                     </li>
                 </ul>
                 <h5 id="galeri" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Galeri</h5>
