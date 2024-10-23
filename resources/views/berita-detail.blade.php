@@ -28,7 +28,7 @@
                 <div class="mt-8 flex gap-7 pb-8">
                     <p class="text-xl font-bold leading-none">Kategori</p>
                 </div>
-                @foreach (json_decode($article->label) as $label)
+                @foreach ($article->label as $label)
                     <a href="{{ route('berita', ['label' => $label]) }}"
                         class="mb-2 me-2 inline-block rounded-lg bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-blue-500 hover:text-white md:text-base">{{ $label }}</a>
                 @endforeach
