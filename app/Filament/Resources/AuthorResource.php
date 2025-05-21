@@ -35,6 +35,7 @@ class AuthorResource extends Resource
             ->columns([
                 TextColumn::make('name')->searchable(),
             ])
+            ->paginated(false)
             ->filters([
                 //
             ])

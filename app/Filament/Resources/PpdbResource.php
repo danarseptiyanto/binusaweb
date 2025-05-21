@@ -47,6 +47,7 @@ class PpdbResource extends Resource
                 TextColumn::make('wa-ortu')->sortable(),
                 TextColumn::make('tgl-lahir')->sortable(),
             ])
+            ->paginated(false)
             ->filters([
                 //
             ])

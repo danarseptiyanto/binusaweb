@@ -87,6 +87,7 @@ class ArticleResource extends Resource
                 TextColumn::make('title')->searchable(),
                 TextColumn::make('author.name')->sortable(),
             ])
+            ->paginated(false)
             ->filters([
                 //
             ])
