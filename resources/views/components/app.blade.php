@@ -1,5 +1,6 @@
 @props(['title' => 'SMK Bina Nusantara Semarang'])
 <!doctype html>
+<!-- Hi There! -->
 <html class="scroll-smooth">
 
 <head>
