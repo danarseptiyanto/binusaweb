@@ -35,9 +35,9 @@
                 <h2 id="profil" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Profil Jurusan
                     DPB</h2>
                 <p class="mb-7 text-base font-normal leading-8 text-slate-500 md:text-lg">
-                    Jurusan Desain dan Produksi Busana merupakan program keahlian yang mengajarkan keterampilan dalam
+                    Jurusan Desain dan Produksi Busana merupakan kompetensi keahlian yang mengajarkan keterampilan dalam
                     mendesain, memproduksi, dan mengelola busana secara kreatif dan teknis. Program ini bertujuan untuk
-                    menghasilkan tenaga profesional yang kompeten di bidang fesyen, mulai dari konsep desain hingga
+                    menghasilkan tenaga profesional yang kompeten di bidang fashion, mulai dari konsep desain hingga
                     proses produksi pakaian siap pakai. Jurusan ini cocok bagi mereka yang memiliki minat dalam dunia
                     mode dan industri tekstil.
                 </p>
@@ -45,24 +45,22 @@
                     Utama</h5>
                 <ul class="mb-7 ml-8 space-y-2">
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Desain Busana: Siswa mempelajari teknik menggambar sketsa mode, pengembangan konsep desain, dan
-                        tren fesyen terkini. Pelatihan meliputi pembuatan pola busana hingga perancangan desain untuk
-                        berbagai jenis pakaian, baik formal, kasual, maupun busana adat.
+                        1. Desain Busana: Siswa mempelajari teknik menggambar sketsa mode, pengembangan konsep desain,
+                        dan tren fashion terkini. Pelatihan meliputi pembuatan pola busana hingga perancangan desain
+                        untuk berbagai jenis pakaian, baik formal, kasual, maupun busana adat.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Teknik Pembuatan Pola: Menguasai keterampilan dalam membuat pola dasar busana yang disesuaikan
-                        dengan ukuran tubuh, serta mengubah pola sesuai dengan desain yang diinginkan.
+                        2. Teknik Pembuatan Pola: Menguasai keterampilan dalam membuat pola dasar busana yang
+                        disesuaikan dengan ukuran tubuh, serta mengubah pola sesuai dengan desain yang diinginkan.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Teknik Menjahit: Siswa diajarkan keterampilan menjahit dengan tangan maupun mesin jahit,
+                        3. Teknik Menjahit: Siswa diajarkan keterampilan menjahit dengan tangan maupun mesin jahit,
                         termasuk teknik dasar seperti penjahitan, penyulaman, dan penyelesaian busana.
                     </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Tekstil dan Material Busana: Memahami berbagai jenis kain, bahan, dan aksesoris busana serta
-                        bagaimana cara memilih material yang sesuai untuk desain yang dirancang.
-                    </li>
-                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Produksi Busana: Mengelola proses produksi busana, mulai dari pemotongan kain, penjahitan,
+                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">4. Tekstil dan
+                        Material Busana: Memahami berbagai jenis kain, bahan, dan aksesoris busana serta bagaimana cara
+                        memilih material yang sesuai untuk desain yang dirancang.
+                        5. Produksi Busana: Mengelola proses produksi busana, mulai dari pemotongan kain, penjahitan,
                         hingga penyelesaian akhir yang melibatkan teknik-teknik finishing dan pengecekan kualitas.
                     </li>
                 </ul>
@@ -70,23 +68,23 @@
                 </h5>
                 <ul class="mb-7 ml-8 space-y-2">
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Desainer Busana: Merancang pakaian dan aksesoris untuk rumah mode, brand fesyen, atau bahkan
+                        1. Desainer Busana: Merancang pakaian dan aksesoris untuk rumah mode, brand fashion, atau bahkan
                         membuka label fesyen sendiri.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Penjahit Profesional: Bekerja sebagai penjahit di industri mode atau secara mandiri dengan
+                        2. Penjahit Profesional: Bekerja sebagai penjahit di industri mode atau secara mandiri dengan
                         membuka usaha tailor.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Pembuat Pola (Pattern Maker): Spesialis dalam membuat pola dasar dan pola modifikasi yang
-                        digunakan untuk produksi massal busana.
+                        3. Pattern Maker: Spesialis dalam membuat pola dasar dan pola modifikasi yang digunakan untuk
+                        produksi massal busana.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Konsultan Fesyen: Memberikan saran dan layanan di bidang fesyen, baik untuk individu, butik,
+                        4. Konsultan Fashion: Memberikan saran dan layanan di bidang fesyen, baik untuk individu, butik,
                         atau perusahaan.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Manajer Produksi Busana: Mengelola jalur produksi pakaian di pabrik atau bisnis fesyen skala
+                        5. Manajer Produksi Busana: Mengelola jalur produksi pakaian di pabrik atau bisnis fashion skala
                         kecil hingga menengah.
                     </li>
                 </ul>

@@ -35,10 +35,10 @@
                 <h2 id="profil" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Profil Jurusan
                     TSM</h2>
                 <p class="mb-7 text-base font-normal leading-8 text-slate-500 md:text-lg">
-                    Jurusan Teknik Sepeda Motor (TSM) adalah program pendidikan kejuruan yang berfokus pada penguasaan
-                    teknologi otomotif, khususnya dalam bidang perawatan, perbaikan, dan pengelolaan sepeda motor.
-                    Program ini bertujuan untuk menghasilkan tenaga kerja yang terampil dan kompeten dalam industri
-                    otomotif, baik dari segi mekanik maupun elektronik sepeda motor.
+                    Jurusan Teknik Sepeda Motor (TSM) adalah kompetensi keahlian yang berfokus pada penguasaan teknologi
+                    otomotif, khususnya dalam bidang perawatan, perbaikan, dan pengelolaan sepeda motor. Program ini
+                    bertujuan untuk menghasilkan tenaga profesional yang terampil dan kompeten dalam industri otomotif,
+                    baik dari segi mekanik maupun elektronik sepeda motor.
                 </p>
                 <h5 id="kompetensi" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Kompetensi
                     Utama</h5>
@@ -48,8 +48,8 @@
                         termasuk pemeriksaan sistem kelistrikan, pelumas, sistem pendingin, dan rem.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Perbaikan Mesin Sepeda Motor: Pelajaran ini meliputi cara memperbaiki dan merawat komponen mesin
-                        sepeda motor, seperti piston, kopling, transmisi, dan karburator.
+                        Perbaikan Mesin Sepeda Motor: Pelajaran ini meliputi cara memperbaiki dan merawat komponen
+                        mesin sepeda motor, seperti piston, kopling, transmisi, dan karburator.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
                         Sistem Kelistrikan dan Elektronik: Siswa diajarkan tentang sistem kelistrikan sepeda motor,
@@ -60,8 +60,11 @@
                         bakar elektronik (EFI), yang semakin banyak digunakan di sepeda motor modern.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Keselamatan dan Kesehatan Kerja (K3): Diajarkan juga mengenai prosedur keselamatan dan standar
-                        kerja yang aman selama melakukan perbaikan dan perawatan sepeda motor.
+                        Pengelasan: Siswa diajarkan teknik pengelasan dasar sebagai bekal di industri
+                    </li>
+                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
+                        6. Keselamatan dan Kesehatan Kerja (K3): Diajarkan juga mengenai prosedur keselamatan dan
+                        standar kerja yang aman selama melakukan perbaikan dan perawatan sepeda motor.
                     </li>
                 </ul>
                 <h5 id="karier" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Peluang Karier

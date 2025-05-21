@@ -1,5 +1,5 @@
-<div class="relative mx-auto w-full px-5 py-10 md:max-w-screen-xl md:px-0 md:py-16" data-aos="fade-up"
-    data-aos-duration="650" data-aos-once="true">
+<div class="relative mx-auto w-full px-5 pb-10 md:max-w-screen-xl md:px-0" data-aos="fade-up" data-aos-duration="650"
+    data-aos-once="true">
     <img src="/img/ui/video-thumbnail.jpg" class="aspect-video rounded-xl object-cover md:rounded-3xl">
     <div class="absolute inset-0 flex items-center justify-center">
         <a href="https://www.youtube.com/watch?v=_-Rajt-a_J4" target="_blank">

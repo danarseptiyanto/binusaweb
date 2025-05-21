@@ -35,40 +35,40 @@
                 <h2 id="profil" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Profil Jurusan
                     Akuntansi</h2>
                 <p class="mb-7 text-base font-normal leading-8 text-slate-500 md:text-lg">
-                    Jurusan Akuntansi adalah program keahlian yang berfokus pada penguasaan keterampilan dan pengetahuan
-                    di bidang pencatatan, pengelolaan, dan pelaporan keuangan. Program ini mempersiapkan siswa untuk
-                    mampu mengelola keuangan secara akurat, menyusun laporan keuangan, serta memahami prinsip-prinsip
-                    perpajakan dan audit. Jurusan ini cocok bagi mereka yang tertarik dengan angka, analisis data, serta
-                    ingin berkarir di dunia bisnis dan keuangan.
+                    Jurusan Akuntansi adalah kompetensi keahlian yang berfokus pada penguasaan keterampilan dan
+                    pengetahuan di bidang pencatatan, pengelolaan, dan pelaporan keuangan. Program ini mempersiapkan
+                    siswa untuk mampu mengelola keuangan secara akurat, menyusun laporan keuangan, serta memahami
+                    prinsip-prinsip perpajakan dan audit. Jurusan ini cocok bagi mereka yang tertarik dengan angka,
+                    analisis data, serta ingin berkarir di dunia bisnis dan keuangan.
                 </p>
                 <h5 id="kompetensi" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Kompetensi
                     Utama</h5>
                 <ul class="mb-7 ml-8 space-y-2">
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Pencatatan Transaksi Keuangan: Siswa diajarkan tentang pencatatan berbagai transaksi keuangan,
-                        baik untuk usaha kecil maupun besar. Ini termasuk pencatatan transaksi harian, pembuatan jurnal,
-                        hingga posting ke buku besar.
+                        1. Pencatatan Transaksi Keuangan: Siswa diajarkan tentang pencatatan berbagai transaksi
+                        keuangan, baik untuk usaha kecil maupun besar. Ini termasuk pencatatan transaksi harian,
+                        pembuatan jurnal, hingga posting ke buku besar.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Penyusunan Laporan Keuangan: Mempelajari cara menyusun laporan keuangan yang terdiri dari
+                        2. Penyusunan Laporan Keuangan: Mempelajari cara menyusun laporan keuangan yang terdiri dari
                         neraca, laporan laba rugi, laporan perubahan ekuitas, dan laporan arus kas sesuai dengan standar
                         akuntansi.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Perpajakan: Siswa mempelajari dasar-dasar perpajakan, termasuk cara menghitung, mencatat, dan
+                        3. Perpajakan: Siswa mempelajari dasar-dasar perpajakan, termasuk cara menghitung, mencatat, dan
                         melaporkan kewajiban pajak bagi perusahaan atau individu.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Audit dan Pemeriksaan Keuangan: Diajarkan tentang proses audit untuk memastikan laporan keuangan
-                        yang disusun sesuai dengan prinsip-prinsip akuntansi yang berlaku dan bebas dari kesalahan
-                        material.
+                        4. Audit dan Pemeriksaan Keuangan: Diajarkan tentang proses audit untuk memastikan laporan
+                        keuangan yang disusun sesuai dengan prinsip-prinsip akuntansi yang berlaku dan bebas dari
+                        kesalahan material.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Akuntansi Biaya: Pemahaman tentang bagaimana menghitung biaya produksi untuk perusahaan
+                        5. Akuntansi Biaya: Pemahaman tentang bagaimana menghitung biaya produksi untuk perusahaan
                         manufaktur atau jasa, termasuk penentuan harga pokok produksi dan biaya overhead.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Sistem Informasi Akuntansi (SIA): Menguasai penggunaan teknologi dan software akuntansi untuk
+                        6. Sistem Informasi Akuntansi (SIA): Menguasai penggunaan teknologi dan software akuntansi untuk
                         mempermudah pencatatan dan penyusunan laporan keuangan secara efisien.
                     </li>
                 </ul>

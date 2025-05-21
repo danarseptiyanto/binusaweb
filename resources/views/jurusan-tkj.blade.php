@@ -35,19 +35,20 @@
                 <h2 id="profil" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Profil Jurusan
                     TKJ</h2>
                 <p class="mb-7 text-base font-normal leading-8 text-slate-500 md:text-lg">
-                    Jurusan Teknik Komputer dan Jaringan (TKJ) merupakan salah satu bidang keahlian di layai atau
-                    perguruan tinggi yang fokus pada penguasaan teknologi komputer dan jaringan.
-                    Program ini dirancang untuk memberikan siswa keterampilan praktis dalam instalasi, konfigurasi, dan
-                    pemeliharaan perangkat keras serta perangkat lunak komputer, jaringan komputer, dan sistem
-                    komunikasi data.
+                    Jurusan Teknik Komputer dan Jaringan (TKJ) merupakan salah satu kompetensi keahlian yang fokus pada
+                    penguasaan teknologi komputer dan jaringan. Jurusan ini dirancang untuk memberikan siswa
+                    keterampilan praktis dalam instalasi, konfigurasi, dan pemeliharaan perangkat keras serta perangkat
+                    lunak komputer, jaringan komputer, dan sistem komunikasi data. Selain itu siswa juga diberikan
+                    keterampilan programing full stack untuk peminatan programer dan juga diberikan keterampilan desain
+                    grafis serta editing video bagi peminatan Multimedia
                 </p>
                 <h5 id="kompetensi" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Kompetensi
                     Utama</h5>
                 <ul class="mb-7 ml-8 space-y-2">
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Perangkat Keras Komputer: Siswa mempelajari cara merakit, menginstal, dan memperbaiki komputer.
-                        Mereka juga diajarkan tentang berbagai komponen perangkat keras seperti motherboard, prosesor,
-                        RAM, hard drive, dan lainnya.
+                        Perangkat Keras Komputer: Siswa mempelajari cara merakit, menginstal, dan memperbaiki
+                        komputer. Mereka juga diajarkan tentang berbagai komponen perangkat keras seperti motherboard,
+                        prosesor, RAM, hard drive, dan lainnya.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
                         Jaringan Komputer: Siswa akan belajar tentang konsep dasar jaringan komputer, termasuk LAN
@@ -64,8 +65,17 @@
                         dan VPN.
                     </li>
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
-                        Pemrograman Dasar: Biasanya diajarkan dasar-dasar pemrograman untuk mendukung pengelolaan sistem
+                        Pemrograman Dasar: Siswa diajarkan dasar-dasar pemrograman untuk mendukung pengelolaan sistem
                         dan jaringan.
+                    </li>
+                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
+                        Programer Full Stack: Siswa diajarkan pemrograman front-end seperti HTML, CSS, JavaScript,
+                        React, Angular, Vue.js, dan lainnya. Dan juga bahasa pemrograman back-end seperti python, PHP,
+                        Node.js, dan lainnya. (untuk kelas peminatan)
+                    </li>
+                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
+                        Multimedia: Siswa diajarkan penggunaan kamera, pengambilan foto/video, desain grafis, editing
+                        video, dan menjadi konten creator (untuk kelas peminatan)
                     </li>
                 </ul>
                 <h5 id="karier" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Peluang Karier
@@ -86,6 +96,9 @@
                     <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
                         Technical Support
                     </li>
+                    <li class="list-decimal text-base font-normal leading-8 text-slate-500 md:text-lg">
+                        Content Creator
+                    </li>
                 </ul>
                 <h5 id="galeri" class="mb-3 scroll-mt-24 text-xl font-bold text-slate-900 md:text-2xl">Galeri</h5>
                 <div class="gallery">
@@ -104,7 +117,8 @@
                         </div>
                         <div class="mb-7 grid gap-8 md:grid-cols-12 lg:mb-11">
                             <div class="h-[277px] w-full rounded-3xl md:col-span-8 md:h-[404px]">
-                                <img src="https://binusasmg.sch.id/ppdb/binus3.jpg" alt="Gallery image"
+                                <img src="https://sis.binusasmg.sch.id/assets/dist/img/binusa/tabus.jpg"
+                                    alt="Gallery image"
                                     class="gallery-image mx-auto h-full w-full rounded-3xl border border-slate-100 object-cover transition-all duration-700 ease-in-out hover:grayscale md:col-span-6 lg:col-span-8">
                             </div>
                             <div class="h-[277px] w-full rounded-3xl md:col-span-4 md:h-[404px]">
